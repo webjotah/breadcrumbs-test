@@ -15,7 +15,6 @@ export default function Home() {
   function handleAction(key: Key) {
     setCurrent(key);
     setKeyNumber(Number(key));
-    console.log(current, key, keyNumber);
   }
 
   function handleNext() {
